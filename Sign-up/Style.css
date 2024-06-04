@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: yellowgreen;
+}
+.sign-upBox{
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: aliceblue;
+    border-radius: 3px;
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+h4{
+    text-align: center;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+        display: flex;
+        margin-top: 20px;
+        font-size: 18px;
+}
+form input{
+    width: 90%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+input[type="submit"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px ;
+    border: none;
+    background-color: #49c1a2;
+    font-size: 20px;
+}
+h3{
+    text-align: center;
+}
+a{
+    align-self: center;
+    position: absolute;
+    left: 48%;
+}
+a:hover{
+    color: rgb(255, 1, 1);
+}
+p{
+    font-size: 15px;
+    margin: 15px;
+    display: inline-block;
+    color: black;
+    padding: 5px 20px;
+}
+.img1{
+    position: absolute;
+    left: 1%;
+    background: transparent;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.img2{
+    position: absolute;
+    right: 1%;
+    background: yellowgreen;
+}
+.header{
+    background-image: url(signupdog.jpeg);
+}
+p{
+    position: absolute;
+    left: 70%;
+    right: 30%;
+    top: 10%;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+footer a{
+    text-decoration: none;
+    position: absolute;
+    left: 1%;
+}
